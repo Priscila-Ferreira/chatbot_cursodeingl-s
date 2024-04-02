@@ -1,0 +1,14 @@
+    def chatbot():
+      # Perguntas do usuário
+      pergunta_1 = "Qual o valor do curso?"
+      pergunta_2 = "Qual o tempo de duração?"
+
+      # Respostas do chatbot
+      respostas = {
+      pergunta_1: "R$ 997,00",
+      pergunta_2: "O curso tem duração de 18 meses.", }
+
+      print(f"Chatbot: {resposta}")
+
+       # Verifica se o usuário deseja continuar
+        continuar = input("Deseja continuar a conversa? (sim/não) ")
